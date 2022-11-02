@@ -12,11 +12,16 @@ body {
 
 .row {
 	display: flex;
-	background-color: navy;
+	width: 100%;
 }
 
 .col {
 	background-color: aquamarine;
+}
+
+.col-33 {
+	width: calc(100% / 3);
+	display: flex;
 }
 
 /* Header */
@@ -35,11 +40,25 @@ header .row > .col {
 	display: flex;
 	align-items: center;
 	height: 100%;
-	width: 270px;
 }
 
-.logo {
-	width: 100px;
-	height: 40px;
-	background-color: maroon;
+nav {
+	width: 100%;
+}
+
+nav ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+}
+
+nav ul a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.btn-blue a{
+	background-color: #0061FF;
+	color: #FFFFFF;
+	padding: 0.5em 1em;
 }
