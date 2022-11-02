@@ -9,3 +9,37 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 }
+
+.row {
+	display: flex;
+	background-color: navy;
+}
+
+.col {
+	background-color: aquamarine;
+}
+
+/* Header */
+
+header {
+	height: 80px;
+}
+
+header > .row {
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+header .row > .col {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: 270px;
+}
+
+.logo {
+	width: 100px;
+	height: 40px;
+	background-color: maroon;
+}
