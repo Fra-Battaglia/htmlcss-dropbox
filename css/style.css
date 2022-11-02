@@ -15,8 +15,8 @@ body {
 	width: 100%;
 }
 
-.col {
-	background-color: aquamarine;
+.col-40 {
+	width: 40%;
 }
 
 .col-33 {
@@ -24,10 +24,52 @@ body {
 	display: flex;
 }
 
+.margin-top-50px {
+	margin-top: 50px;
+}
+
+.vertical-padding-100px {
+	padding: 100px 0;
+}
+
+.text-big {
+	font-size: 50px;
+}
+
+.row, .col, .col-40 {
+	border: 1px solid red;
+}
+
+.col-30 {
+	width: 30%;
+}
+
+.col-60 {
+	width: 60%;
+}
+
+.col-70 {
+	width: 70%;
+}
+
+.text-extrabold {
+	font-weight: 800;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
 /* Header */
 
 header {
 	height: 80px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: #FFFFFF;
+	z-index: 1;
 }
 
 header > .row {
@@ -61,4 +103,23 @@ nav ul a{
 	background-color: #0061FF;
 	color: #FFFFFF;
 	padding: 0.5em 1em;
+	text-decoration: none;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+	background-color: #B4D0E7;
+	margin-top: 80px;
+	position: relative;
+}
+
+.jumbotron .col-70 {
+	position: relative;
+}
+
+.jumbo-image{
+	position: absolute;
+	bottom: -150px;
+	width: 100%;
 }
