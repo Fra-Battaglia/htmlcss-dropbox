@@ -12,6 +12,7 @@ body {
 
 .row {
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 }
 
@@ -24,8 +25,12 @@ body {
 	display: flex;
 }
 
-.margin-top-50px {
-	margin-top: 50px;
+.margin-top-25px {
+	margin-top: 25px;
+}
+
+.vertical-padding-50px {
+	padding: 50px 0;
 }
 
 .vertical-padding-100px {
@@ -36,7 +41,7 @@ body {
 	font-size: 50px;
 }
 
-.row, .col, .col-40 {
+.row, .col, .col-40, .col-33 {
 	border: 1px solid red;
 }
 
@@ -58,6 +63,13 @@ body {
 
 .container {
 	max-width: 1000px;
+}
+
+.container-small {
+	max-width: 900px;
+}
+
+.container, .container-small {
 	margin: 0 auto;
 }
 
@@ -120,6 +132,16 @@ nav ul a{
 
 .jumbo-image{
 	position: absolute;
-	bottom: -150px;
+	bottom: -100px;
 	width: 100%;
+}
+
+/* Plans */
+
+.plans > .container-small > .row {
+	margin-bottom: 50px;
+}
+
+.plans > .container-small > .row:last-child {
+	margin-bottom: 0;
 }
