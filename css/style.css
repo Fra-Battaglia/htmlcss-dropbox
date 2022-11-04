@@ -104,6 +104,32 @@ body {
 	margin: 0 auto;
 }
 
+.btn-blue {
+	text-align: center;
+	background-color: #0061FF;
+	color: #FFFFFF;
+	padding: 0.5em 1em;
+	border: 0;
+}
+
+.btn-blue a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.btn-white {
+	text-align: center;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 0.5em 1em;
+	border: 0;
+}
+
+.btn-white a {
+	color: #000000;
+	text-decoration: none;
+}
+
 a {
 	color: #0061FF;
 }
@@ -148,19 +174,6 @@ nav ul{
 
 nav ul a{
 	color: #000000;
-	text-decoration: none;
-}
-
-.btn-blue {
-	text-align: center;
-	background-color: #0061FF;
-	color: #FFFFFF;
-	padding: 0.5em 1em;
-	border: 0;
-}
-
-.btn-blue a{
-	color: #FFFFFF;
 	text-decoration: none;
 }
 
@@ -257,15 +270,23 @@ nav ul a{
 
 /* Teams */
 
+.big-square {
+	height: calc(100vw / 3);
+}
+
+.big-square .row{
+	height: 100%;
+}
+
 .brand-team {
-	height: calc(100vw / 6);
+	height: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .brand-team img{
-	fill: #FFFFFF;
+	filter: invert(100%);
 	width: 60%;
 }
 
@@ -303,7 +324,7 @@ nav ul a{
 }
 
 .mosaic-main {
-	height: calc(100vw / 3);
+	height: 100%;
 	background-color: #F5F5F5;
 	padding: 25px;
 }
@@ -314,4 +335,24 @@ nav ul a{
 
 .mosaic-main > * {
 	margin-bottom: 50px;
+}
+
+.free-trial {
+	height: calc(100vw / 6);
+	width: 100%;
+	background: #B4D0E7;
+}
+
+.free-trial .row{
+	justify-content: space-between;
+}
+
+.free-trial .container-small {
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.free-trial h2 {
+	color: #61082B;
 }
