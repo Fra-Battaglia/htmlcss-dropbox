@@ -268,6 +268,30 @@ nav ul a{
 	border: 0.5px solid #666666;
 }
 
+/* Img and text */
+
+.img-and-text .col-60 {
+	height: 100%;
+}
+
+.img-and-text .col-60 img{
+	width: 100%;
+}
+
+.img-and-text .col-40 {
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.img-and-text .btn-white{
+	width: auto;
+	border: 1px solid #000000;
+}
+
 /* Teams */
 
 .big-square {
