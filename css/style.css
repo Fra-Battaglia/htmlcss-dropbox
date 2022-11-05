@@ -64,11 +64,7 @@ body {
 	padding: 100px 0;
 }
 
-.text-big {
-	font-size: 50px;
-}
-
-.row, .col, .col-40, .col-33 {
+.row, .col, .col-30, .col-40, .col-33 {
 	border: 1px solid red;
 }
 
@@ -82,6 +78,14 @@ body {
 
 .col-70 {
 	width: 70%;
+}
+
+.text-big {
+	font-size: 50px;
+}
+
+.text-small {
+	font-size: 14px;
 }
 
 .text-bold {
@@ -290,6 +294,21 @@ nav ul a{
 .img-and-text .btn-white{
 	width: auto;
 	border: 1px solid #000000;
+}
+
+/* Operations */
+
+.business-feature {
+	justify-content: space-between;
+	row-gap: 25px;
+}
+
+.business-feature-img img{
+	width: 100%;
+}
+
+.business-feature-text p {
+	font-size: 14px;
 }
 
 /* Teams */
