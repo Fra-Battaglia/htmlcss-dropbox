@@ -422,6 +422,13 @@ nav ul a {
 	color: #61082B;
 }
 
+/* FAQ */
+
+.faq > .container-small > .row {
+	border-bottom: 1px solid;
+	justify-content: space-between;
+}
+
 /* Footer */
 
 footer {
