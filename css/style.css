@@ -80,10 +80,6 @@ body {
 	padding: 100px 0;
 }
 
-.row, .col, .col-20, .col-30, .col-40, .col-33 {
-	border: 1px solid red;
-}
-
 .col-30 {
 	width: 30%;
 }
