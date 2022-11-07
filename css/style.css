@@ -80,6 +80,10 @@ body {
 	padding: 100px 0;
 }
 
+/* .row, .col, .col-20, .col-30, .col-40, .col-33 {
+	border: 1px solid red;
+} */
+
 .col-30 {
 	width: 30%;
 }
@@ -213,6 +217,10 @@ nav ul a {
 	position: absolute;
 	bottom: -100px;
 	width: 100%;
+}
+
+.jumbotron a i {
+	color: #000000;
 }
 
 /* Plans */
@@ -420,9 +428,23 @@ nav ul a {
 
 /* FAQ */
 
-.faq > .container-small > .row {
+.question .row {
 	border-bottom: 1px solid;
 	justify-content: space-between;
+}
+
+.answer {
+	background-color: #DEDEDE;
+	display: none;
+}
+
+.question-and-answer:hover .answer {
+	display: block;
+}
+
+.question-and-answer:hover .question .fa-angle-down {
+	rotate: 180deg;
+	transition: 0.3s;
 }
 
 /* Footer */
